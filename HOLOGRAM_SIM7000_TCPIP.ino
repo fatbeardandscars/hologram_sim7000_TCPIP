@@ -16,7 +16,8 @@ void setup() {
    
   //Being serial communication with Arduino and SIM7000
   serialSIM7000.begin(115200);
-  delay(1000);
+ //Give it a little time to pick up the cell signal
+  delay(3000);
 
  //Must use the \r\n to simulate the return carriage and a new line in all commands
   serialSIM7000.write("AT+CMEE=1\r\n");
