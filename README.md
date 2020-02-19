@@ -1,6 +1,6 @@
 
 # hologram_sim7000_TCPIP
-Send a messages to Hologram Cloud with auto AT commands with sim7000 and Arduino.
+Send a messages to Hologram Cloud with auto AT commands with sim7000 breakout and Arduino.
 
 There is a sim800 library for Hologram, however most of the at commands and proceedures
 are different for the sim7000. For example...
