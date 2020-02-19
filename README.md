@@ -1,6 +1,6 @@
 
 # hologram_sim7000_TCPIP
-Send a messages to Hologram Cloud with auto AT commands with sim7000a/e/c breakout
+Send a messages to Hologram Cloud with auto AT commands with sim7000a/e/c/g/x breakout
 (sold on amazon or aliexpress) and Arduino. Make sure you get the correct breakout for your
 region
 sim7000a - americas
