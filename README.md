@@ -1,6 +1,13 @@
 
 # hologram_sim7000_TCPIP
-Send a messages to Hologram Cloud with auto AT commands with sim7000 breakout and Arduino.
+Send a messages to Hologram Cloud with auto AT commands with sim7000a/e/c breakout
+(sold on amazon or aliexpress) and Arduino. Make sure you get the correct breakout for your
+region
+sim7000a - americas
+sim7000e - euro
+sim7000c - asia
+
+ I have been able to power the breakout with just the 5v arduino pin.
 
 There is a sim800 library for Hologram, however most of the at commands and proceedures
 are different for the sim7000. For example...
