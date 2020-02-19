@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 //I have this set to only run once, but you can pop it in the loop and have sensors or whatever trigger the code.
-//I am just going to use a mosfet to turn the sim7000 off then on as needed after waking the arduino for a restasrt from begining.
+//I am just going to use a mosfet to turn the sim7000 off then on as needed after waking the arduino for a restart from begining.
 //You may want to play with the delay function timing if your sim7000 takes a bit longer to connect.
  
 //SIM7000 TX is connected to Arduino D8
